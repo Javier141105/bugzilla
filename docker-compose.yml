@@ -1,0 +1,8 @@
+version: '2'
+services:
+  bugzilla:
+    container_name: bugzilla-dev
+    image: bugzilla/bugzilla-dev
+    ports:
+      - "8086:80"  #The Port Where is it
+      - "5900:5900"
